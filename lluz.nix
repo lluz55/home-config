@@ -166,8 +166,10 @@ with lib;
     fish.enable = true;
     git = {
       enable = true;
-      userName = "lluz55";
-      userEmail = "lucasluz55@gmail.com";
+      settings.user = {
+        name = "lluz55";
+        email = "lucasluz55@gmail.com";
+      };
     };
     direnv = {
       enable = true;
